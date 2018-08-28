@@ -38,7 +38,7 @@ To run the zipkin server with RabbitMQ config, run this code:
     RABBIT_URI=amqp://localhost java -jar zipkin.jar
 
 
-## Architecture
+## Architecture - In Progress
 ![Architecture](https://github.com/juliofalbo/microservices-with-spring-cloud/blob/master/arch.jpeg?raw=true)
 
 ## References
