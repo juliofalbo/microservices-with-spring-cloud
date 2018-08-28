@@ -6,35 +6,40 @@ There are thousands of definitions out there about what are microservices, but t
     
 >**James Lewis and Martin Fowler**
 
-# 
+# What is this?
+This is a POC of a Microservices Architecture using Spring Cloud.
 
-### Stack
+## Stack
 - **Spring Cloud Configuration Server** with a **git repository**
 - **Feign** to create REST Clients
 - **Ribbon** to Client Side Load Balance
 - **Eureka** to a Naming Server
 - **Zuul** to a API Gateway
-- **Sleuth** **Zipkin** to a Distributed Tracing, using **RabbitMQ** for save logs
+- **Sleuth** and **Zipkin** to a Distributed Tracing, using **RabbitMQ** for save logs
 - **Hystrix** to a Fault Tolerance
 
 
-### Ports
+## Ports
 
 |     Application       |     Port          |
 | ------------- | ------------- |
 | Limits Service | 8080, 8081, ... |
 | Spring Cloud Config Server | 8888 |
-|  |  |
 | Currency Exchange Service | 8000, 8001, 8002, ..  |
 | Currency Conversion Service | 8100, 8101, 8102, ... |
 | Netflix Eureka Naming Server | 8761 |
 | Netflix Zuul API Gateway Server | 8765 |
 | Zipkin Distributed Tracing Server | 9411 |
 
-### Zipkin
-Execute
-    ```RABBIT_URI=amqp://localhost java -jar zipkin.jar```
 
+## Zipkin
+To run the zipkin server with RabbitMQ config, run this code:
+
+    RABBIT_URI=amqp://localhost java -jar zipkin.jar
+
+
+## Architecture
+![Architecture](https://github.com/juliofalbo/microservices-with-spring-cloud/blob/master/arch.jpeg?raw=true)
 
 ## References
 
