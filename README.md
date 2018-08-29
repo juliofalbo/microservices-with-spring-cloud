@@ -1,3 +1,4 @@
+
 ## What are Microservices?
 
 There are thousands of definitions out there about what are microservices, but the one I like best is that of the great master Martin Fowler
@@ -23,10 +24,12 @@ This is a POC of a Microservices Architecture using Spring Cloud.
 
 |     Application       |     Port          |
 | ------------- | ------------- |
-| Limits Service | 8080, 8081, ... |
+| Copom Microservice | 8080, 8081, ... |
+| Central Bank Microservice | 8000, 8001, 8002, ..  |
+| Falbo Bank Microservice | 8100, 8101, 8102, ... |
+| Arruzzo Bank Microservice | 8200, 8201, 8202, ... |
+| Auth Microservice | 8300, 8301, 8302, ... |
 | Spring Cloud Config Server | 8888 |
-| Currency Exchange Service | 8000, 8001, 8002, ..  |
-| Currency Conversion Service | 8100, 8101, 8102, ... |
 | Netflix Eureka Naming Server | 8761 |
 | Netflix Zuul API Gateway Server | 8765 |
 | Zipkin Distributed Tracing Server | 9411 |
