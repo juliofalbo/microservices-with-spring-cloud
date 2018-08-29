@@ -38,10 +38,12 @@ This is a POC of a Microservices Architecture using Spring Cloud.
 ## git-localconfig-repo
 When cloning the project, the git-localconfig-repo project must be linked to the spring-cloud-config-server project.
 If you use IntelliJ, it is quite simple to do this. Just go to the menu **File > Project Structure**. To do this, just open your **spring-cloud-config-server** project and click **+ Add Root Content** and choose a folder **git-localconfig-repo**.
+
 ![ContentRoot](https://github.com/juliofalbo/microservices-with-spring-cloud/blob/master/contentroot.png?raw=true)
 
 
 When you do this, you will need to create the **copom.properties**, **copom-dev.properties**, **copom-qa.properties**, **copom-prod.properties** files as shown in the image below.
+
 ![gitlocalconfig](https://github.com/juliofalbo/microservices-with-spring-cloud/blob/master/gitlocalconfig.png?raw=true)
 
 ## Zipkin
