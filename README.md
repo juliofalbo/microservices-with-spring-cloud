@@ -46,6 +46,8 @@ When you do this, you will need to create the **copom.properties**, **copom-dev.
 
 ![gitlocalconfig](https://github.com/juliofalbo/microservices-with-spring-cloud/blob/master/gitlocalconfig.png?raw=true)
 
+### Remember that it is necessary to start a local repository with the git init command
+
 ## Zipkin
 To run the zipkin server with RabbitMQ config, run this code:
 
